@@ -1,0 +1,31 @@
+body {
+    /* background-color: aquamarine; */
+}
+
+.navbar {
+    height: 60px;
+    /* width: 100%;
+     */
+    justify-content: right;
+}
+
+.cont {
+    width: 400px;
+}
+
+#text {
+    width: 400px;
+}
+
+form {
+    /* width: 60px; */
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+}
+
+.btnsearch {
+    font-size: 12px;
+    padding: 1px;
+    border-bottom-right-radius: 5px;
+    border-radius: 5px;
+}

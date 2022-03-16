@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="p.css">
+    <link rel="stylesheet" media="screen and (max-width: 781px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Festive&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar" id="nav">
+
+        <div class="logo">
+            <h3>I-Notes</h3>
+        </div>
+        <!-- <span class="home">Home</span> -->
+
+        <div class="search">
+            <form class="form">
+                <input id="stxt" type="search" placeholder="Search" aria-label="Search">
+                <button class="btnsearch" type="submit">Search</button>
+            </form>
+        </div>
+
+    </nav>
+    <div class="cont">
+        <div>
+            <h2>Create a note</h2>
+            <!-- <textarea name="titlt" id="title" cols="75" rows="2" placeholder="Title"></textarea> -->
+            <textarea name="text" id="text" cols="75" rows="5" placeholder="write your note"></textarea>
+            <div>
+                <button id="addbtn" class="btnadd">Add Note</button>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div class="ur">
+
+        <h2>Your-Notes</h2>
+
+    </div>
+    <hr>
+    <div id="notes" class="noteCard"></div>
+    </div>
+    
+    <footer>
+        <div class="center">
+            Copyright &copy; www.inotes.com . All rights reserved!
+        </div>
+    </footer>
+
+
+
+
+    <script src="p.js"></script>
+</body>
+
+</html>
